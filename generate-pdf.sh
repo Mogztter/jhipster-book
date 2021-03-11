@@ -4,7 +4,7 @@
 
 source $HOME/.rvm/scripts/rvm
 
-rvm use 2.3.1 --quiet
+rvm use 2.7.2 --quiet
 if [ ! -d .bundle/gems ]; then
   rm -f Gemfile.lock
   bundle config --local github.https true
